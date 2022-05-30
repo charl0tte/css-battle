@@ -1,0 +1,113 @@
+.head {
+    background: #fff;
+    width: 180px;
+    height: 160px;
+    border-radius: 47%;
+    z-index: 2;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+}
+
+.ear {
+    background: #000;
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    position: absolute;
+    top: 55px;
+    z-index: 0;
+}
+
+.ear.left {
+    left: 100px;
+}
+
+.ear.right {
+    right: 100px;
+}
+
+.face {
+    background: #000;
+    width: 65px;
+    height: 45px;
+    position: absolute;
+    top: 120px;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.face.left {
+    justify-content: end;
+    left: 110px;
+    transform: rotate(-40deg);
+    border-top-right-radius: 60%;
+    border-bottom-right-radius: 60%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+
+    
+}
+
+.face.right {
+    justify-content: start;
+    right: 110px;
+    transform: rotate(40deg);
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 60%;
+    border-bottom-left-radius: 60%;
+}
+
+.eye {
+    background: #fff;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.circle {
+    background: #000;
+    width: 20px;
+    height: 20px;
+    border-radius: 45%;
+    position: absolute;
+    top: 160px;
+    z-index: 6;
+}
+
+.circle.left {
+    left: 176.5px;
+    overflow: hidden;
+
+}
+
+.circle.right {
+    right: 176.5px;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 17px solid transparent;
+    border-right: 17px solid transparent;
+    border-top: 17px solid #000;
+    position: absolute;
+    top: 176px;
+    z-index: 5;
+    left: 178px;
+    overflow: hidden;
+}
+
+.nose {
+    background: #000;
+    width: 7px;
+    height: 15px;
+    position: absolute;
+    top: 187px;
+    z-index: 10;
+    left: 191px;
+    border-radius: 30%;
+}

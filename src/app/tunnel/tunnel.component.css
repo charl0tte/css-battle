@@ -1,0 +1,27 @@
+.a {
+    width: 250px;
+    height: 250px;
+    background: #243D83;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.b {
+    background: #6592CF;
+    width: 60%;
+    height: 60%;
+    margin: auto;
+    transform: rotate(10deg);
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.c {
+    width: 50%;
+    height: 50%;
+    background: #243D83;
+    margin: auto;
+    transform: rotate(10deg);
+}

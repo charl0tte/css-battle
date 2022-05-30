@@ -1,0 +1,30 @@
+.a {
+    height: 150px;
+    width: 400px;
+    background: #4CAAB3;
+    z-index: 1;
+    margin: 0;
+}
+
+.b {
+    height: 150px;
+    width: 150px;
+    background: #4CAAB3;
+    z-index: 2;
+    margin: auto;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 75px;
+    right: 125px;
+    box-shadow: 0 0 0 50px #222730;
+}
+
+.c {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background: #393E46;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}

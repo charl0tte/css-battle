@@ -1,0 +1,28 @@
+#a {
+    background: #F3AC3C;
+    width: 100px;
+    height: 100px;
+    /* display: flex; */
+}
+
+#b {
+    background: #998235;
+    width: 100px;
+    height: 50px;
+    transform: skewX(-45deg);
+    position: absolute;
+    left: 43%;
+    top: 17%;
+}
+
+#c {
+    background: #1A4341;
+    width: 50px;
+    height: 20px;
+    transform: skewY(-45deg) rotate(90deg);
+}
+
+div {
+    /* transform: rotate(45deg); */
+
+}

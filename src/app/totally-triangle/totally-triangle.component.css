@@ -1,0 +1,8 @@
+.a {
+    width: 0;
+    height: 0;
+    /* background: #F3AC3C; */
+    border-left: 140px solid #F3AC3C;
+    border-right: 140px solid transparent;
+    border-bottom: 140px solid transparent;
+}

@@ -1,0 +1,53 @@
+.window {
+	width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #F2AD43;
+    position: relative;
+    bottom: 25px;
+  }
+  
+  .background {
+	background: #F2AD43;
+    position: absolute;
+    top: 100px;
+	width: 150px;
+    height: 150px;
+    margin: 0;
+    border-radius: 14%;
+   	overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .light {
+    	width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #E08027;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+      z-index: 1;
+  }
+  
+    .dark {
+    	width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #824B20;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+      z-index: 1;
+  }
+  
+  .sun {
+	width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #FFF58F;
+    position: absolute;
+    top: 40px;
+    right: 45px;
+  }

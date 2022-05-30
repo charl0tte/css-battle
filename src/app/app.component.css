@@ -1,0 +1,84 @@
+.container {
+    min-height: 960px;
+    max-height: 960px;
+    height: 960px;
+    min-width: 1260px;
+    max-width: 1260px;
+    width: 1260px;
+}
+
+.col-md {
+    background-color: #34495e;
+    min-height: 300px;
+    max-height: 300px;
+    height: 300px;
+    margin: 15px;
+    padding: 0;
+}
+
+#boxception {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  	background: #F3AC3C;
+}
+
+#cube {
+    background: #0B2429;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+#horizon {
+    background: #62306D;
+    display: flex;
+    align-items: flex-start;
+}
+
+#tunnel {
+    background: #6592CF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#totally-triangle {
+    background: #0B2429;
+}
+
+#web-maker-logo {
+    background: #F2F2B6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tesseract {
+    background: #222730;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#panda {
+    background: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cat-paw {
+    background: #8e44ad;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#sunset {
+    background: #191919;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

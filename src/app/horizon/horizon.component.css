@@ -1,0 +1,18 @@
+#a {
+    height: 50px;
+    width: 400px;
+    background: #F7EC7D;
+    display: flex;
+}
+
+#b {
+    background: #E38F66;
+    height: 50px;
+    width: 400px;
+}
+
+#c {
+    background: #AA445F;
+    height: 100px;
+    width: 400px;
+}
