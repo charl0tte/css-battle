@@ -15,6 +15,7 @@ import { PandaComponent } from './panda/panda.component';
 import { CatPawComponent } from './cat-paw/cat-paw.component';
 import { SunsetComponent } from './sunset/sunset.component';
 import { DiamondCutComponent } from './diamond-cut/diamond-cut.component';
+import { EarthComponent } from './earth/earth.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { DiamondCutComponent } from './diamond-cut/diamond-cut.component';
     PandaComponent,
     CatPawComponent,
     SunsetComponent,
-    DiamondCutComponent
+    DiamondCutComponent,
+    EarthComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,58 @@
+.earth {
+    background: #4F77FF;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    /* box-shadow: inset 0 0 0 30px  aqua; */
+}
+
+.bar {
+    height: 100%;
+    width: 10px;
+    background: #191919;
+}
+
+.vertical {
+    position: absolute;
+    top: 0;
+}
+
+.horizontal {
+    transform: rotate(90deg);
+}
+
+.a {
+    right: 100px;
+}
+
+.b {
+    position: relative;
+    right: 37.5px;
+}
+
+.c {
+    position: relative;
+    left: 75px;
+}
+
+.ellipse {
+    background-color: transparent;
+    z-index: 9999;
+    width: 150px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    border: 10px solid #191919;
+}
+
+.left {
+    left: 150px;
+}
+
+.right {
+    right: 150px;
+}
