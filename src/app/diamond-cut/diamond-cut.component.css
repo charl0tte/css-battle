@@ -1,0 +1,27 @@
+.small {
+    width: 30px;
+    height: 30px;
+    background: #1A4341;
+    transform: rotate(45deg);
+    box-shadow: 
+    0 0 0 30px #F3AC3C,
+    0 0 0 60px #998235;
+    border: 0;
+}
+
+.not-visible {
+    width: 30px;
+    height: 30px;
+    background: #F3AC3C;
+    z-index: 9999;
+    position: relative; 
+    border: 1px solid #F3AC3C; 
+}
+
+.a {
+    right: 60px;
+}
+
+.b {
+    bottom: 90px;
+}

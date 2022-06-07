@@ -14,6 +14,7 @@ import { TesseractComponent } from './tesseract/tesseract.component';
 import { PandaComponent } from './panda/panda.component';
 import { CatPawComponent } from './cat-paw/cat-paw.component';
 import { SunsetComponent } from './sunset/sunset.component';
+import { DiamondCutComponent } from './diamond-cut/diamond-cut.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { SunsetComponent } from './sunset/sunset.component';
     TesseractComponent,
     PandaComponent,
     CatPawComponent,
-    SunsetComponent
+    SunsetComponent,
+    DiamondCutComponent
   ],
   imports: [
     BrowserModule,
