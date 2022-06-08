@@ -16,6 +16,7 @@ import { CatPawComponent } from './cat-paw/cat-paw.component';
 import { SunsetComponent } from './sunset/sunset.component';
 import { DiamondCutComponent } from './diamond-cut/diamond-cut.component';
 import { EarthComponent } from './earth/earth.component';
+import { CloudComponent } from './cloud/cloud.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { EarthComponent } from './earth/earth.component';
     CatPawComponent,
     SunsetComponent,
     DiamondCutComponent,
-    EarthComponent
+    EarthComponent,
+    CloudComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,37 @@
+.circle {
+    background: #D86F45;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.small {
+    background: #D86F45;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    left: 100px;
+    bottom: 0;
+}
+
+.a {
+    left: 100px;
+}
+
+.b {
+    background-color: #D86F45;
+    position: relative;
+    left: 55px;
+    top: -25px
+}
+
+.fill {
+    width: 80px;
+    height: 50px;
+    background-color: #D86F45;
+    position: absolute;
+    right: -40px;
+    top: 25px
+}
