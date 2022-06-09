@@ -1,0 +1,18 @@
+div {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image:
+        conic-gradient(#9ED110 0deg 30deg,
+            #50B517 30deg 60deg,
+            #179067 60deg 90deg,
+            #476EAF 90deg 120deg,
+            #9f49ac 120deg 150deg,
+            #CC42A2 150deg 180deg,
+            #FF3BA7 180deg 210deg,
+            #FF5800 210deg 240deg,
+            #FF8100 240deg 270deg,
+            #FEAC00 270deg 300deg,
+            #FFCC00 300deg 330deg,
+            #EDE604 330deg 360deg);
+}

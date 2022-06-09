@@ -103,3 +103,30 @@
     justify-content: center;
     align-items: center;
 }
+
+#improvmx {
+    background: #191919;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#gradient {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#framed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #bdc3c7;
+}
+
+#rounded-border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #bdc3c7;
+}

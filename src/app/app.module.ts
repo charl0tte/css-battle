@@ -17,6 +17,14 @@ import { SunsetComponent } from './sunset/sunset.component';
 import { DiamondCutComponent } from './diamond-cut/diamond-cut.component';
 import { EarthComponent } from './earth/earth.component';
 import { CloudComponent } from './cloud/cloud.component';
+import { ImprovmxComponent } from './improvmx/improvmx.component';
+import { GradientComponent } from './gradient/gradient.component';
+import { FramedComponent } from './framed/framed.component';
+import { RoundedBorderComponent } from './rounded-border/rounded-border.component';
+import { GradientTextComponent } from './gradient-text/gradient-text.component';
+import { CheckerboardComponent } from './checkerboard/checkerboard.component';
+import { StarburstComponent } from './starburst/starburst.component';
+import { UmbrellaComponent } from './umbrella/umbrella.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +42,15 @@ import { CloudComponent } from './cloud/cloud.component';
     SunsetComponent,
     DiamondCutComponent,
     EarthComponent,
-    CloudComponent
+    CloudComponent,
+    ImprovmxComponent,
+    GradientComponent,
+    FramedComponent,
+    RoundedBorderComponent,
+    GradientTextComponent,
+    CheckerboardComponent,
+    StarburstComponent,
+    UmbrellaComponent
   ],
   imports: [
     BrowserModule,
