@@ -25,6 +25,7 @@ import { GradientTextComponent } from './gradient-text/gradient-text.component';
 import { CheckerboardComponent } from './checkerboard/checkerboard.component';
 import { StarburstComponent } from './starburst/starburst.component';
 import { UmbrellaComponent } from './umbrella/umbrella.component';
+import { ThreeSquaresLoaderComponent } from './three-squares-loader/three-squares-loader.component';
 
 @NgModule({
   declarations: [
@@ -50,7 +51,8 @@ import { UmbrellaComponent } from './umbrella/umbrella.component';
     GradientTextComponent,
     CheckerboardComponent,
     StarburstComponent,
-    UmbrellaComponent
+    UmbrellaComponent,
+    ThreeSquaresLoaderComponent
   ],
   imports: [
     BrowserModule,

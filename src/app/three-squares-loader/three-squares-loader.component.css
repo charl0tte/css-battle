@@ -1,0 +1,36 @@
+.square {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #8e44ad;
+    animation: rotate 4s linear infinite;
+}
+
+.square::before,
+.square::after {
+    content: '';
+    position: absolute;
+    border: 3px solid #8e44ad;
+    animation: rotate 1.3s linear infinite;
+    animation-direction: reverse;
+
+}
+
+.square::before {
+    width: 145px;
+    height: 145px;
+}
+
+.square::after {
+    width: 66px;
+    height: 66px;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
